@@ -1,0 +1,39 @@
+.email {
+    display: block;
+    width: 570px;
+    flex-wrap: wrap;
+    margin-left: 93px;
+}
+
+.email__description {
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
+    color: var(---primary-white);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.email__form {
+    display: flex;
+    height: 50px;
+}
+
+.email__form__field {
+    width: 570px;
+}
+
+.email__form__input {
+    width: 358px;
+    height: 50px;
+    padding-left: 16px;
+    margin-right: 12px;
+    outline: transparent;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    color: var(---white-cl-60);
+}
+
